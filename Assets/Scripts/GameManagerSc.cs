@@ -37,8 +37,16 @@ public class GameManagerSc : MonoBehaviour
     }
 
     public void SpawnEnemy(){
+        GameObject enemy;
+        int num = Random.Range(0, 100);
+        if(num < 50){
+            enemy = enemies[0];
+        }
+        else{
+            enemy = enemies[1];
+        }
 
-       GameObject enemy =  Instantiate(enemies[Random.Range(0,1)], new Vector3(4,-0.5f,0f), enemies[0].gameObject.transform.rotation);
+       Instantiate(enemy, new Vector3(4,-0.5f,0f), enemies[0].gameObject.transform.rotation);
        enemy.SetActive(true);
     }
 }

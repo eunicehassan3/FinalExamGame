@@ -1996,7 +1996,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4313705882352100235, guid: 4461517d808de4324acd8102d8cd2ae8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.25
+      value: 2.75
       objectReference: {fileID: 0}
     - target: {fileID: 4313705882352100235, guid: 4461517d808de4324acd8102d8cd2ae8, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2161,7 +2161,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 948085052765153594, guid: 76d9fcd9d91424907aa13895f885a2e5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.34
+      value: 2.67
       objectReference: {fileID: 0}
     - target: {fileID: 948085052765153594, guid: 76d9fcd9d91424907aa13895f885a2e5, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2210,7 +2210,7 @@ PrefabInstance:
     - target: {fileID: 1547671596102623729, guid: 76d9fcd9d91424907aa13895f885a2e5, type: 3}
       propertyPath: enemySlider
       value: 
-      objectReference: {fileID: 1419271498}
+      objectReference: {fileID: 995388084}
     - target: {fileID: 2514701634264109940, guid: 76d9fcd9d91424907aa13895f885a2e5, type: 3}
       propertyPath: m_Name
       value: TriangleMonster
